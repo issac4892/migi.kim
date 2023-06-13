@@ -7,7 +7,7 @@ export default function Project() {
     return (
         <div className="page font-suit">
             <h1 className="suite"><span className="back" onClick={() => route('/')}>←</span> Projects</h1>
-            <div className="pagedata flex-project">
+            <div className="pagedata grid-project">
                 {projects.map((project, index) => (
                     <ProjectCard key={index} title={project.title} description={project.description} date={project.date}
                                  status={project.status} link={project.link}/>
