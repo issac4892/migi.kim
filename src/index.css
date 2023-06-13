@@ -1,0 +1,104 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
+html,
+body {
+    background: linear-gradient(to bottom right, #AEC6CF, #EFEEF3);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    display: block;
+    margin: 0 10px;
+    transition: fill 0.2s ease;
+
+}
+
+.icon:hover {
+    fill: rgba(0, 0, 0, 0.5);
+}
+
+.font-big {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 4px;
+}
+
+.font-middle-big {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.font-small {
+    font-size: small;
+}
+
+.link {
+    width: 130px;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 3em;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.pfplink {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.pfplink:hover {
+    background-color: #0056b3;
+}
+
+.suite {
+    font-family: "SUITE Variable", "Pretendard Variable", sans-serif;
+}
+
+.font-suit {
+    font-family: "SUITE Variable", "Pretendard Variable", sans-serif;
+}
+
+.back {
+    border-radius: 0.2em;
+}
+
+.back:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.pagedata {
+    padding-left: 5px;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.flex-project {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background: linear-gradient(to bottom right, #AEC6CF, #EFEEF3);
+    color: #333333;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+        "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
