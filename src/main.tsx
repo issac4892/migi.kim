@@ -6,6 +6,7 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Career from "./Career";
 import Project from "./Project";
 import Education from "./Education";
+import Email from "./Email";
 
 const router = createBrowserRouter([
     {
@@ -23,11 +24,13 @@ const router = createBrowserRouter([
     {
         path: '/education',
         element: <Education/>,
+    },
+    {
+        path: '/email',
+        element: <Email/>
     }
 ])
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-    <React.StrictMode>
-        <RouterProvider router={router}/>
-    </React.StrictMode>,
+    <RouterProvider router={router}/>,
 )

@@ -2,6 +2,7 @@ import {ProjectStatus} from "../enum/ProjectEnum";
 import '../style/projectcard.css'
 import {Project} from "../data/projects";
 import {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
 
 export default function ProjectCard(props: Project) {
     const [color, setColor] = useState('gray')
@@ -13,7 +14,7 @@ export default function ProjectCard(props: Project) {
     return (
         <div className="project-card">
             <h2 className={props.link ? 'nomargin' : 'nomargin'}>
-                {props.link ? <a className="project-card-link" href={props.link}>{props.title}</a> : props.title}
+                {props.link ? <Link className="project-card-link" to={props.link}>{props.title}</Link> : props.title}
             </h2>
             <span>{props.description}</span><br/>
             <span>{props.date}</span>

@@ -1,5 +1,7 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css");
 
+@import url('https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css');
+
 html,
 body,
 #app, #app>div {
@@ -95,6 +97,18 @@ h2 {
 .grid-project {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.email-div {
+    font-size: large;
+}
+
+.emaillink {
+    color: black;
+}
+
+.tossface {
+    font-family: Tossface, sans-serif;
 }
 
 body {
