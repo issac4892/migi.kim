@@ -1,8 +1,13 @@
 import {Link, useNavigate} from "react-router-dom";
+import Helmet from "react-helmet";
 
 export default function Email() {
     const route = useNavigate()
     return (
+        <>
+            <Helmet>
+                <title>✉️Email | Mingeon Kim</title>
+            </Helmet>
         <div className="page font-suit">
             <h1 className="suite">
                 <span className="back" onClick={() => route('/')}>← </span>
@@ -13,5 +18,6 @@ export default function Email() {
                 <span className="tossface">👨‍💻</span>Personal | <Link className="emaillink" to="mailto:me@migi.kim">me@migi.kim</Link>
             </div>
         </div>
+            </>
     )
 }
