@@ -3,7 +3,7 @@
 @import url('https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css');
 
 html {
-    background-repeat: no-repeat;
+    min-height: 100%;
 }
 
 body {
